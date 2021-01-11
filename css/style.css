@@ -2,15 +2,36 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
 .container {
 	width: 1224px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 10px;
-	padding-right: 10px;
 	margin: 0 auto;
 	padding: 0 auto; 
 }
 
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
+.menu__list {
+	display: flex;
+}
+
+.menu__list-item + .menu__list-item{
+	margin-left: 32px;
+}
+
+.menu__list-link {
+	color: #2F281E;
+	font-size: 18px;
+	line-height: 28px;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
 
