@@ -17,6 +17,11 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 78px;
+}
+
+.menu{
+	margin-left: auto;
 }
 
 .menu__list {
@@ -29,9 +34,36 @@ body {
 
 .menu__list-link {
 	color: #2F281E;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 28px;
 	text-decoration: none;
 	font-family: 'Poppins', sans-serif;
+}
+
+.user-nav{
+	margin-left: 52px;
+	margin-right: 13px;
+	line-height: 30px;
+}
+
+.user-nav__link {
+	color: #173A56;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	padding: 11px 23px ;
+	border: 1px solid #BCD0E5;
+	border-radius: 4px;
+}
+
+.user-nav__link + .user-nav__link {
+	margin-left: 14px;  
+	border-color:transparent;
+	background-color: #ff9900;
+	color: #fff;
+}
+
+.user-nav__link{
+	text-decoration: none;
 }
 
