@@ -7,6 +7,10 @@ body {
 	font-weight: 400;
 }
 
+.title{
+	color: #2F281E;
+}
+
 .container {
 	width: 1224px;
 	margin: 0 auto;
@@ -67,3 +71,10 @@ body {
 	text-decoration: none;
 }
 
+.top {
+	padding: 133px 0 80px;
+}
+
+.top__title{
+
+}
