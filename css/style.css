@@ -201,3 +201,41 @@ button{
 	background-position:center bottom;
 	background-size: cover;
 }
+.direction{
+	padding: 120px 0 100px;
+}
+
+.direction__item{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+.direction__item-content{
+	min-width: 486px;
+}
+
+.direction__item-pretitle{
+	margin-bottom: 3px; 
+}
+
+.direction_item-title{
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 54px;
+	margin-bottom: 22px;
+}
+
+.direction__item-text{
+	margin-bottom: 25px;
+}
+
+.direction__item-subtitle{
+	
+	font-weight: 700;
+	line-height: 26px;
+	margin-bottom: 12px; 
+}
+
+.direction__list{
+
+}
