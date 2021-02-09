@@ -268,6 +268,7 @@ button{
 
 .team__inner{
 	padding: 230px 0 380px;
+	position: relative;
 }
 
 .team__box{
@@ -299,3 +300,85 @@ button{
 	padding: 15px 30px 14px;
 	color:#fff;
 }
+
+.team__item{
+	position: absolute;
+	width: 98px;
+	height: 98px;
+}
+
+.team1{
+	right: 95px;
+	top: 77px;
+}
+
+.team2{
+	left: 226px;
+	top: 115px;
+}
+
+.team3{
+	right: 22px;
+	bottom: 70px;
+}
+
+.team4{
+	right: 95px;
+	top: 77px;
+}
+
+.team__item-img{
+	width: 98px;
+	height: 98px;
+	border-radius: 50%;
+	overflow: hidden;
+	object-fit: cover;
+}
+.team__item-text{
+	background-color: #fff;
+	padding: 14px 20px 15px;
+	color: #2f281e;
+	box-shadow: 0px 2px 15px rgbd(23,58,86,0.1);
+	border-radius:26px;
+	position: absolute;
+	top: -28px;
+	right: 88px;
+	white-space: nowrap;
+}
+
+.team__item-text-message::after,
+.team__item-text-message::before{
+	content:'';
+	position: absolute;
+	background-color:#fff;
+	border-radius:50%;
+}
+
+.team__item-text-message::after{
+width: 17px;
+height: 17px;
+bottom: -8px;
+right: 14px;
+}
+
+.team__item-text-message::before{
+width: 9px;
+height: 9px;
+bottom: -15px;
+right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
